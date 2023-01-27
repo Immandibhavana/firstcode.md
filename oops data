@@ -1,0 +1,21 @@
+class users():
+    def __init__(self,name,usr_name,pswd,num):
+        self.name = name
+        self.usr_name = usr_name
+        self.pswd = pswd
+        self.num= num
+print("enter the details of user1")
+name1 = input("name :  ")
+usr_name1 = input("username : ")
+pswd1 = input("password : ")
+num1 = input("number : ")
+
+print("enter the details of user2")
+name2 = input("name : ")
+usr_name2 = input("username : ")
+pswd2 = input("password : ")
+num2 = input("number : ")
+if name1 == name2 and num1==num2:
+    print("user1 name and user2 name are equal")
+else:
+    print("user 1  and user2 are not equal")
